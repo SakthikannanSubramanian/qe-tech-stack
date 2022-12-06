@@ -23,25 +23,47 @@ const Home = () => {
         Architechtural Layers
       </button>
       {showLayers && (
-        <HighLevelLayers
-          highLight={selectedLayer}
-          onClick={UpdateSelectedLayer}
-        />
+        <div>
+          <br />
+          <label>
+            <b>Choose Layer</b>
+          </label>
+          <br />
+          <HighLevelLayers
+            highLight={selectedLayer}
+            onClick={UpdateSelectedLayer}
+          />
+        </div>
       )}
       {showLayers && selectedLayer && (
-        <TestTypes
-          selectedLayer={selectedLayer}
-          highLight={selectedTestType}
-          onClick={UpdateSelectedTestType}
-        />
+        <div>
+          <label>
+            <b>Choose Test type</b>
+          </label>
+          <br />
+          <br />
+          <TestTypes
+            selectedLayer={selectedLayer}
+            highLight={selectedTestType}
+            onClick={UpdateSelectedTestType}
+          />
+        </div>
       )}
+      <br />
       {showLayers && selectedLayer && selectedTestType && (
-        <TestTools
-          selectedLayer={selectedLayer}
-          selectedTestType={selectedTestType}
-          highLight={selectedTool}
-          onClick={UpdateSelectedTool}
-        />
+        <div>
+          <label>
+            <b>Suggested Tools</b>
+          </label>
+          <br />
+          <br />
+          <TestTools
+            selectedLayer={selectedLayer}
+            selectedTestType={selectedTestType}
+            highLight={selectedTool}
+            onClick={UpdateSelectedTool}
+          />
+        </div>
       )}
     </div>
   );

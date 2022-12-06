@@ -15,18 +15,17 @@ const TestTools = ({ selectedLayer, selectedTestType, highLight, onClick }) => {
               key={TestTool}
               className="test-tools-item"
               onClick={() => onClick(TestTool)}
-              style={{
-                borderWidth: highLight === TestTool ? "5px" : "",
-              }}
             >
-              {/* <img
+              <img
                 alt={TestTool}
-                src={
-                  require(`../../assets/images/${TestTool.toLowerCase()}.png`)
-                    .default
-                }
-              /> */}
-              {TestTool.charAt(0).toUpperCase() + TestTool.slice(1)}
+                width={50}
+                height={50}
+                src={require(`../../assets/images/${TestTool.toLowerCase()}.png`)}
+              />
+              <br />
+              <label>
+                {TestTool.charAt(0).toUpperCase() + TestTool.slice(1)}
+              </label>
             </div>
           );
         })}

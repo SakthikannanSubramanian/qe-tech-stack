@@ -1,11 +1,27 @@
 .test-tools-item {
-  background-color: #66ffcc;
-  border-radius: 8px;
+  background-color: white;
+  border-radius: 12px;
+  height: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   padding: 10px 60px;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-bottom: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
   cursor: pointer;
+}
+
+.test-tools {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div {
+  border-width: 5px;
+  border-color: black;
 }

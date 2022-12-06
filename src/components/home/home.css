@@ -2,7 +2,7 @@
 }
 
 .click-btn {
-  background-color: #ccff33;
+  background-color: #33adff;
   border-radius: 12px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: black;
@@ -15,4 +15,10 @@
 .heading-layers {
   display: block;
   margin: 30px 0;
+}
+
+label {
+  color: black;
+  font-size: large;
+  font-weight: 500;
 }
