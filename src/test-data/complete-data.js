@@ -27,7 +27,7 @@ const completeData = {
     IntegrationTesting: ["Codecept", "WireMock", "Webdriver", "Puppeteer"],
     VisualRegressionTesting: ["Percy", "ResembleJS"],
     SecurityTesting: ["contrast", "zap"],
-    AccessibilityTesting: ["axe", "Sitespeed", "Wave"],
+    AccessibilityTesting: ["axe-core", "Sitespeed", "Wave"],
     CompatibilityTesting: ["BrowserStack"],
     PerformanceTesting: ["Sitespeed", "Lighthouseci"],
     ExploratoryTesting: ["Postman", "WebDeveloperTools"],
