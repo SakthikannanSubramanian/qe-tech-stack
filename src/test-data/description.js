@@ -163,15 +163,6 @@ const Description = {
       "Grafana is a flexible, automatable, open source dashboarding technology that fits very well with a Prometheus-based time-series database (our primary telemetry tool). This was an easy choice to make, as the GCP-native tooling is not nearly as capable when operating at scaleGrafana can be adopted when moving into Kubernetes, as AWS CloudWatch didn't support this. CloudWatch was retired so that there was a single place to go to.",
     url: "https://grafana.com/",
   },
-  httpie: {
-    label: "httpio",
-    id: "httpio",
-    description: "API Testing tool",
-    logo: "httpie.png",
-    why:
-      "A good alternative to Postman if you prefer working on the command line.",
-    url: "https://httpie.io/",
-  },
   jacoco: {
     label: "Jacoco",
     id: "jacoco",
