@@ -22,3 +22,26 @@ label {
   font-size: large;
   font-weight: 500;
 }
+
+.heading {
+  color: black;
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+.sideHeading {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.close-button {
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin: 10px 0px;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+}
