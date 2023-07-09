@@ -296,7 +296,7 @@ const Description = {
       "Dependency-Check is a Software Composition Analysis (SCA) tool that attempts to detect publicly disclosed vulnerabilities contained within a project’s dependencies. It does this by determining if there is a Common Platform Enumeration (CPE) identifier for a given dependency. If found, it will generate a report linking to the associated CVE entries.",
     logo: "owaspDepend.jpeg",
     why:
-      "Waitrose Digital teams using SonarQube, currently recommend using the OWASP Dependency Check Gradle plugin. This tooling may be replaced by Contrast at some point in the future, however it is currently the only recommended method for analysing vulnerable dependencies in our AWS Lambda projects. This may change in future if Contrast supports the Lambda runtime.  ",
+      "Digital teams using SonarQube, currently recommend using the OWASP Dependency Check Gradle plugin. This tooling may be replaced by Contrast at some point in the future, however it is currently the only recommended method for analysing vulnerable dependencies in our AWS Lambda projects. This may change in future if Contrast supports the Lambda runtime.  ",
     url: "https://owasp.org/www-project-dependency-check/",
   },
   Pact: {
@@ -487,7 +487,7 @@ const Description = {
       "Convenient alternative of RestTemplate that is suitable for integration tests.",
     logo: "spring.png",
     why:
-      "Integration tests form part of the code base repo for REST services are developed using Springboot. This has allowed some Waitrose Digital teams to move from RestAssured to TestRestTemplate which is part of Spring’s Test Framework which comes bundled with the ‘spring-boot-starter-test’ dependency.",
+      "Integration tests form part of the code base repo for REST services are developed using Springboot. This has allowed some Digital teams to move from RestAssured to TestRestTemplate which is part of Spring’s Test Framework which comes bundled with the ‘spring-boot-starter-test’ dependency.",
 
     url:
       "https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/web/client/TestRestTemplate.html",
@@ -550,7 +550,7 @@ const Description = {
       "WebdriverIO allows you to automate any application written with modern web frameworks such as React, Angular, Polymeror Vue.js as well as native mobile applications for Android and iOS",
     logo: "webdriver.png",
     why:
-      "WebdriverIO (not to be confused with Webdriver) is simple to use and the code syntax is easily understandable. WebdriverIO is good for Journey Tests across multiple applications. All members of Front End teams are encouraged to contribute to the tests and WebdriverIO. It provides all the essential features of Selenium alongside with additional features and works great for web applications such as the John Lewis website. It is also has better compatibility with Browserstack than most other tools. Finally it has a good community with great support and enthusiastic developers that keep adding to the test framework.",
+      "WebdriverIO (not to be confused with Webdriver) is simple to use and the code syntax is easily understandable. WebdriverIO is good for Journey Tests across multiple applications. All members of Front End teams are encouraged to contribute to the tests and WebdriverIO. It provides all the essential features of Selenium alongside with additional features and works great for web applications. It is also has better compatibility with Browserstack than most other tools. Finally it has a good community with great support and enthusiastic developers that keep adding to the test framework.",
     url: "https://webdriver.io/",
   },
   wiremock: {
